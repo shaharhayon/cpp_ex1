@@ -1,7 +1,7 @@
 #include <string>
 
-using namespace std;
+
 
 namespace ariel{
-    string snowman(int n);
+    std::string snowman(int n);
 }

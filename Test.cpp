@@ -8,8 +8,8 @@ using namespace std;
 
 TEST_CASE("Good snowman code")
 {
-    CHECK(snowman(11114411) == string("_===_\n(.,.)\n( : )\n( : )"));
-    CHECK(snowman(11111111) == string("_===_\n(.,.)\n<( : )>\n( : )"));
+    CHECK(snowman(11114411) == string("_===_\n (.,.)\n ( : ) \n ( : )"));
+    CHECK(snowman(11111111) == string("_===_\n (.,.)\n<( : )>\n ( : )"));
     CHECK(snowman(22222222) == string(" ___ \n.....\n\\(o.o)/\n (] [) \n (\" \")"));
     CHECK(snowman(33333333) == string("  _  \n /_\\\n (O_O) \n/(> <)\\\n (___)"));
     CHECK(snowman(44444444) == string(" ___ \n(_*_)\n (- -)\n (   ) \n (   )"));
