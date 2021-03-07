@@ -4,9 +4,9 @@
 
 namespace ariel
 {
-    string snowman(int n)
+    std::string snowman(int n)
     { 
-        string ans;
+        std::string ans;
         return ans;
     }
 }
